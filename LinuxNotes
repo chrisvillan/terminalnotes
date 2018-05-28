@@ -1,0 +1,59 @@
+terminal = text input/output environment
+console = physical terminal
+shell = command line interpreter
+
+research unix, kernel
+
+Commands:
+pwd = print work directory 
+
+ls = derived from "list" 
+ : -a (all) = do not ignore entries starting with . 
+
+rm = remove (files)
+ : -r = removes directories and contents recursively
+ : -d = removes EMPTY directories 
+
+touch = creates and update timestamp
+ : -d = 'DD MM YYYY HH:MM' filename
+
+mv = move files or rename files/folder
+ : * [DEST] = moves all files in destination
+ : [folder/file] [DEST] = moves folder/file to destination. If destination does not exist, it gets rename
+ : * .. = moves all files in parent folder
+ : [file] .. = moves files in parent folder
+ : -v (verbose_ = explain what is being done
+
+cp = copies files 
+ : [file/folder] [DEST] = copies files/folder to destination, if file/folder does not exist, a copy is made with DEST's name
+
+cat = concatenate to standard output 
+
+vi ("vi"sual editor) text editor
+i = insert 
+x = delete charcter
+dd = deletes line
+v = select character 
+ : d = deletes 
+ : y = copy 
+ : x = cuts
+ : p = paste
+:wq = write and quit
+:q! = quit ignore this warning 
+
+Known commands:
+cd = change directory 
+cd .. = Add one level up path
+mkdir = make directory 
+
+"\ " = a space (in terminal)
+
+change hostname:
+sudo vi /etc/hostame sudo vi /etc/hosts
+
+find wifi password in linux:
+go into directory --> etc/NetworkManager/system-connections 
+open wifi profile with "cat" and then look into "psk=" for password
+
+
+
