@@ -5,3 +5,5 @@ netsh wlan show profile = shows all wif profiles made
 
 
 netsh wlan show profile [wifi name] key=clear  : shows information. Wifi password is in key content under security 
+
+

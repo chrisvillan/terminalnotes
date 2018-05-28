@@ -41,6 +41,10 @@ v = select character
 :wq = write and quit
 :q! = quit ignore this warning 
 
+uninstall program:
+dpkg --list = list packages
+sudo apt-get ==purge remove [package] = removes packages and config files
+
 Known commands:
 cd = change directory 
 cd .. = Add one level up path
@@ -54,6 +58,12 @@ sudo vi /etc/hostame sudo vi /etc/hosts
 find wifi password in linux:
 go into directory --> etc/NetworkManager/system-connections 
 open wifi profile with "cat" and then look into "psk=" for password
+
+
+show devices on wifi:
+install nmap = sudo apt-get install nmap
+run: sudo nmap -sn 192.168.1.0/24
+
 
 
 
